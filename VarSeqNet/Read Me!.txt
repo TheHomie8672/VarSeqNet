@@ -1,0 +1,2 @@
+Hello! Welcome to the Launcher. The Launcher is the interface that allows you to select a NN model, train your models on data, run your models, 
+or generate training data using the built in Training_gen_NN
