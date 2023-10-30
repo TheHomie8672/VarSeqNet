@@ -1,5 +1,8 @@
 import numpy as np
 import torch.nn as nn
+from dataclass import dataclass
+
+
 
 input_sizes =  [1]
 hidden_sizes =  [1]
@@ -38,7 +41,15 @@ model = NeuralNetwork(input_sizes, size, hidden_sizes, output_sizes, data_type, 
 
 
 
-
+@dataclass
+class modelV2(nn.module):
+    def __init__(self.input_sizes,hidden_sizes,output_sizes):
+        super(NeuralNetwork, self).__init__()
+        self.input_sizes = input_sizes
+        self.hidden_sizes = hidden_sizes
+        self.putput_sizes = output_sizes
+        
+    # in progress
 
 
      
